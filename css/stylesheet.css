@@ -9,7 +9,7 @@ body {
     line-height: 2;
     background-color: #ffffff;
 }
-
+/*Top refere-se ao cabeçalho*/
 top {
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@ top {
 }
 
 .top-links {
-display: flex;
+    display: flex;
     list-style: none;
     flex-wrap: wrap;              
     justify-content: flex-end;    
@@ -50,7 +50,7 @@ display: flex;
     text-decoration: none;
     font-weight: bold;
 }
-
+/*Referindo-se às secções principais da página*/
 section {
     padding: 100px 20px;
     min-height: 100vh;
@@ -68,9 +68,10 @@ section#Contactos {
 }
 
 .linebreak{
-width: 50%;
-align-self: center;
-
+    width: 80%;
+    align-self: center;
+    height: 4px;
+    background: #000;
 }
 
 
