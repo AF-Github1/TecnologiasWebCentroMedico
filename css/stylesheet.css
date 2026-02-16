@@ -61,6 +61,19 @@ section {
     text-align: center;     
 }
 
+section#Contactos {
+    border-top: 5px solid #000000;
+    background-color: #b4d5f7; 
+    background: linear-gradient(to bottom, #ffffff, #e9ecef);
+}
+
+.linebreak{
+width: 50%;
+align-self: center;
+
+}
+
+
 .inicio {
     background-color: #ffffff;
     text-align: center;
@@ -94,9 +107,16 @@ section {
 }
 
 h2 {
+    margin-bottom: 20px;   
+    align-self: flex-start;
+
 }
 
-
+section#Contactos h2 {
+    align-self: center;
+    text-align: center; 
+    margin-left: 0;       
+}
 .footer {
     background-color: #001f3f;
     color: #fff;
