@@ -70,6 +70,7 @@ main {
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
+    scroll-margin-top: 150px;
 }
 
 section.investigacao h1{ 
@@ -97,6 +98,7 @@ section.investigacao h3{
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
+    scroll-margin-top: 150px;
 }
 section.parceiros h1{
     font-family: 'Poppins', sans-serif;
@@ -121,6 +123,8 @@ section.parceiros h1{
 .oportunidades {
     margin-top: 30px;
     margin-bottom: 30px;
+    scroll-margin-top: 150px;
+
 }
 
 .oportunidades h1 {
@@ -166,6 +170,8 @@ th {
 .contactos {
     margin-top: 30px;
     margin-bottom: 100px;
+    scroll-margin-top: 150px;
+
 }
 
 .contactos h1 {
