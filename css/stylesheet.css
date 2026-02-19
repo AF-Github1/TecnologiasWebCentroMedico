@@ -70,7 +70,7 @@ main {
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
-    scroll-margin-top: 150px;
+    scroll-margin-top: 165px;
 }
 
 section.investigacao h1{ 
@@ -98,7 +98,7 @@ section.investigacao h3{
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
-    scroll-margin-top: 150px;
+    scroll-margin-top: 165px;
 }
 section.parceiros h1{
     font-family: 'Poppins', sans-serif;
@@ -123,8 +123,7 @@ section.parceiros h1{
 .oportunidades {
     margin-top: 30px;
     margin-bottom: 30px;
-    scroll-margin-top: 150px;
-
+    scroll-margin-top: 165px;
 }
 
 .oportunidades h1 {
@@ -139,15 +138,20 @@ section.parceiros h1{
 
 .oportunidades-container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 30px;
-    margin-right: 40px;
-    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
 }
 
 .oportunidades-img img {
-    width: 100%;
+    margin: 40px;
+    margin-left: 100px;
+    width: 80%;
     display: block;
+}
+
+.oportunidades-content {
+    margin: 40px;
+    margin-right: 100px;
 }
 
 /* TABELA */
@@ -170,7 +174,7 @@ th {
 .contactos {
     margin-top: 30px;
     margin-bottom: 100px;
-    scroll-margin-top: 150px;
+    scroll-margin-top: 165px;
 
 }
 
@@ -194,6 +198,10 @@ th {
 }
 
 .contacto-info p {
+  margin: 5px 0;
+}
+
+.contacto-info a {
   margin: 5px 0;
 }
 
@@ -328,6 +336,11 @@ footer {
     .contactos-container {
         grid-template-columns: 1fr;
     }
+
+    .contacto-info a {
+        display: block;
+    }
+  
 
     .contacto-info {
         justify-items: center;
