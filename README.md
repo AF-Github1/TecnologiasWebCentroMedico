@@ -1,4 +1,3 @@
-https://github.com/AF-Github1/TecnologiasWebCentroMedico
 
 a) Grupo 12: António Freitas|Daniela Gabriel|Rodrigo Pires
 
