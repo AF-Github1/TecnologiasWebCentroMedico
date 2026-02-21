@@ -147,6 +147,8 @@ section.parceiros h1{
     margin-left: 100px;
     width: 80%;
     display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 .oportunidades-content {
@@ -305,18 +307,14 @@ footer {
     justify-content: space-between;
     width: 30px;
     height: 21px;
-    cursor: pointer;
-    z-index: 100;
 }
 
-.hamburger span {
-    display: block;
+.hamburger-line {
     width: 100%;
     height: 3px;
     background-color: #1c75bc;
-    border-radius: 3px;
-    transition: all 0.3s ease;
 }
+
 
 
 /* TABLET */
@@ -393,12 +391,37 @@ footer {
         grid-template-columns: 1fr;
     }
 
+    .grid-parceiros img {
+        margin-top: 40px;
+        width: 40%;
+    }
+
     .oportunidades-container {
         grid-template-columns: 1fr;
     }
 
+    .oportunidades-img img {
+        margin: 40px auto; 
+        width: 80%;
+        display: block;
+    }
+
+    .oportunidades-content {
+        margin: 0px;
+        justify-items: center;
+    }
+
     .contactos-container {
         grid-template-columns: 1fr;
+    }
+
+    .oportunidades-content {
+        overflow-x: auto;
+        width: 100%;
+    }
+    
+    table {
+        min-width: 500px; /* Ensures table doesn't get too squished */
     }
 
     .contacto-info {
